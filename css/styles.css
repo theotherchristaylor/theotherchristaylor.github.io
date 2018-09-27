@@ -1,3 +1,39 @@
+/* Colors
+#6F1A07 Maroon
+#ECF0F1 White
+#000103 Black
+#A8763E Brown
+#F7F3E3 Eggshell
+*/
+
+/* ----- Global Styles ----- */
 body {
-	background: blue;	
+
+}
+a {
+	color: #F7F3E3;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+/* ----- Header and Footer ----- */
+header, footer {
+	background: #6F1A07;
+	color: #F7F3E3;
+}
+
+header h1, header h2 {
+	color: #ECF0F1;
+}
+
+/* ----- Work Experience ----- */
+.work {
+	background: #F7F3E3;
+}
+
+/* ----- Education ----- */
+.education {
+	background: #ECF0F1;
 }
