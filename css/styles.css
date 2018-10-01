@@ -13,16 +13,24 @@
 
 /* ----- Global Styles ----- */
 body {
-
+	font-family: 'Source Sans Pro', sans-serif;
 }
 a {
 	color: #F7F3E3;
 }
-
 a:hover {
 	text-decoration: none;
 }
-
+h1, h2 {
+	font-family: 'Poppins', sans-serif;
+	font-weight: 400;
+}
+h2 {
+	font-size: 40px;
+}
+h1 {
+	font-size: 80px;
+}
 /* ----- Header and Footer ----- */
 header, footer {
 	background: #6F1A07;
