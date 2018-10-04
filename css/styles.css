@@ -10,47 +10,79 @@
 /* font-family: 'Source Sans Pro', sans-serif; */
 /* font-family: 'Poppins', sans-serif; */
 
-
 /* ----- Global Styles ----- */
 body {
-	font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
+	margin: 0;
 }
+
 a {
-	color: #F7F3E3;
+  color: #F7F3E3;
 }
+
 a:hover {
-	text-decoration: none;
+  text-decoration: none;
 }
+
 h1, h2 {
-	font-family: 'Poppins', sans-serif;
-	font-weight: 400;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
 }
+
 h2 {
-	font-size: 40px;
+  font-size: 40px;
+	margin-top: 0;
 }
+
 h1 {
-	font-size: 80px;
+  font-size: 80px;
 }
+
 .content-wrap {
-	max-width: 950px;
-	margin: 0 auto;
+  max-width: 950px;
+  margin: 0 auto;
+	padding: 50px;
+	overflow: auto;
 }
+
 /* ----- Header and Footer ----- */
 header, footer {
-	background: #6F1A07;
-	color: #F7F3E3;
+  background: #6F1A07;
+  color: #F7F3E3;
+}
+
+/* header */
+header {
+	text-align: center;
 }
 
 header h1, header h2 {
-	color: #ECF0F1;
+  color: #ECF0F1;
+	margin: 0;
+}
+
+.profile-img {
+	width: 300px;
+	border-radius: 50%;
+	float: left;
+	margin-right: 30px;
+}
+/* footer */
+footer {
+	text-align: center;
+}
+.contact-info a {
+	background: black;
+	padding: 10px;
+	display: inline-block;
 }
 
 /* ----- Work Experience ----- */
 .work {
-	background: #F7F3E3;
+  background: #F7F3E3;
 }
 
 /* ----- Education ----- */
 .education {
-	background: #ECF0F1;
+  background: #ECF0F1;
 }
