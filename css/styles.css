@@ -31,6 +31,10 @@ h2 {
 h1 {
 	font-size: 80px;
 }
+.content-wrap {
+	max-width: 950px;
+	margin: 0 auto;
+}
 /* ----- Header and Footer ----- */
 header, footer {
 	background: #6F1A07;
