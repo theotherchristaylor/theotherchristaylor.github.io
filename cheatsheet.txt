@@ -7,4 +7,4 @@ git pull
 [OR]
 
 git fetch
-git merge
+git merge origin/master

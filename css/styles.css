@@ -9,6 +9,12 @@
 /* font-family: 'Source Sans Pro', sans-serif; */
 /* font-family: 'Poppins', sans-serif; */
 /* ----- Global Styles ----- */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
 body {
   font-family: 'Source Sans Pro', sans-serif;
   margin: 0;
@@ -42,7 +48,20 @@ h1 {
   padding: 50px;
   overflow: auto;
 }
+.col-narrow{
+  width: 30%;
+  float: left;
+  /* border: 1px solid black; */
+  min-height: 175px;
+}
 
+.col-wide {
+  width: 70%;
+  float: left;
+  padding: 20px;
+  /* border: 1px solid black; */
+  min-height: 175px;
+}
 /* ----- Header and Footer ----- */
 header, footer {
   background: #6F1A07;
@@ -51,7 +70,7 @@ header, footer {
 
 /* header */
 header {
-  text-align: center;
+  /* text-align: center; */
 }
 
 header h1, header h2 {
@@ -60,10 +79,7 @@ header h1, header h2 {
 }
 
 .profile-img {
-  width: 300px;
   border-radius: 50%;
-  float: left;
-  margin-right: 30px;
 }
 
 /* footer */
