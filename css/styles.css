@@ -12,9 +12,11 @@
 html {
   box-sizing: border-box;
 }
+
 *, *:before, *:after {
   box-sizing: inherit;
 }
+
 body {
   font-family: 'Source Sans Pro', sans-serif;
   margin: 0;
@@ -42,26 +44,35 @@ h1 {
   font-size: 80px;
 }
 
+h3 {
+  margin: 0;
+}
+
 .content-wrap {
   max-width: 950px;
   margin: 0 auto;
   padding: 50px;
   overflow: auto;
 }
-.col-narrow{
+
+.col-narrow {
   width: 30%;
   float: left;
   /* border: 1px solid black; */
-  min-height: 175px;
 }
 
 .col-wide {
   width: 70%;
   float: left;
-  padding: 20px;
+  /* padding: 20px; */
   /* border: 1px solid black; */
-  min-height: 175px;
+  /* min-height: 175px; */
 }
+
+.uppercase {
+  text-transform: uppercase;
+}
+
 /* ----- Header and Footer ----- */
 header, footer {
   background: #6F1A07;
@@ -98,7 +109,23 @@ footer {
   background: #F7F3E3;
 }
 
+h3~p {
+  margin: 0;
+}
+
+.job-description {
+  margin-bottom: 25px;
+}
+
+.job-description p:first-of-type {
+  margin-top: 0px;
+  /* background: blue; */
+}
+
 /* ----- Education ----- */
 .education {
   background: #ECF0F1;
+}
+p + h3 {
+  margin-top: 30px;
 }
