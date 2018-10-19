@@ -116,9 +116,10 @@ footer {
 }
 
 .contact-info a {
-  background: black;
+  /* background: black; */
   padding: 10px;
   display: inline-block;
+  font-size: 40px;
 }
 
 /* ------------------------------------------------------------- */
