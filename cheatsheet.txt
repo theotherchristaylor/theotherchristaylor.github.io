@@ -4,7 +4,7 @@ git push -u origin master
 
 git pull
 
-[OR]
+-OR-
 
 git fetch
 git merge origin/master
