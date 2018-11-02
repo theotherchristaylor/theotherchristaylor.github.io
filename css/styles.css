@@ -10,7 +10,8 @@
 /* font-family: 'Poppins', sans-serif; */
 /* ------------------------------------------------------------- */
 /* ----- Global Styles ----- */
-html { /* Box Model Fix */
+html {
+  /* Box Model Fix */
   box-sizing: border-box;
 }
 
@@ -43,7 +44,6 @@ h2 {
 
 h1 {
   font-size: 80px;
-
 }
 
 h3 {
@@ -75,12 +75,14 @@ h3 {
 .uppercase {
   text-transform: uppercase;
 }
+
 .btn {
   text-decoration: none;
   background: #A8763E;
   padding: 10px;
   display: inline-block;
 }
+
 /* ------------------------------------------------------------- */
 /* ----- Header and Footer ----- */
 header, footer {
@@ -124,7 +126,7 @@ footer {
 
 /* ------------------------------------------------------------- */
 /* Navigation */
-nav{
+nav {
   text-align: center;
   background: white;
   position: fixed;
@@ -140,6 +142,7 @@ nav a {
   font-weight: 700;
   color: red;
 }
+
 /* ------------------------------------------------------------- */
 /* ----- Work Experience ----- */
 .work {
@@ -158,13 +161,15 @@ h3~p {
   margin-top: 0px;
   /* background: blue; */
 }
+
 /* ------------------------------------------------------------- */
 /* ----- Education ----- */
 .education {
   /* background: #ECF0F1;*/
   background: linear-gradient(rgba(70, 62, 144, 0.8),
-                              rgba(70, 62, 144, 0.5)),
-                              url(https://unsplash.it/400/300) no-repeat;
+    rgba(70, 62, 144, 0.5)),
+    url(../images/boulder.jpg) no-repeat fixed;
+  background-size: cover;
 }
 
 p+h3 {
