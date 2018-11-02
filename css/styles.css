@@ -57,21 +57,6 @@ h3 {
   overflow: auto;
 }
 
-.col-narrow {
-  width: 35%;
-  float: left;
-  padding: 20px;
-  /* border: 1px solid black; */
-}
-
-.col-wide {
-  width: 65%;
-  float: left;
-  padding: 20px;
-  /* border: 1px solid black; */
-  /* min-height: 175px; */
-}
-
 .uppercase {
   text-transform: uppercase;
 }
@@ -174,4 +159,30 @@ h3~p {
 
 p+h3 {
   margin-top: 30px;
+}
+
+/* Media Queries */
+@media (min-width: 900px){
+  .col-narrow {
+    width: 35%;
+    float: left;
+    padding: 20px;
+    /* border: 1px solid black; */
+  }
+
+  .col-wide {
+    width: 65%;
+    float: left;
+    padding: 20px;
+    /* border: 1px solid black; */
+    /* min-height: 175px; */
+  }
+}
+@media (max-width: 899px) {
+  header {
+    text-align: center;
+  }
+  .profile-img {
+    width: 200px;
+  }
 }
