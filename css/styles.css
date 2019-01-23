@@ -1,10 +1,4 @@
-/* Colors
-#6F1A07 Maroon
-#ECF0F1 White
-#000103 Black
-#A8763E Brown
-#F7F3E3 Eggshell
-*/
+
 /* <link href="https://fonts.googleapis.com/css?family=Poppins|Source+Sans+Pro" rel="stylesheet"> */
 /* font-family: 'Source Sans Pro', sans-serif; */
 /* font-family: 'Poppins', sans-serif; */
@@ -20,12 +14,12 @@ html {
 }
 
 body {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Cantarell', sans-serif;
   margin: 0;
 }
 
 a {
-  color: #F7F3E3;
+  color: Black;
 }
 
 a:hover {
@@ -33,11 +27,13 @@ a:hover {
 }
 
 h1, h2 {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Dosis', sans-serif;
   font-weight: 400;
 }
 
+
 h2 {
+  font-family: 'Cantarell'
   font-size: 40px;
   margin-top: 0;
 }
@@ -63,7 +59,7 @@ h3 {
 
 .btn {
   text-decoration: none;
-  background: #A8763E;
+  background: white;
   padding: 10px;
   display: inline-block;
 }
@@ -71,8 +67,8 @@ h3 {
 /* ------------------------------------------------------------- */
 /* ----- Header and Footer ----- */
 header, footer {
-  background: #6F1A07;
-  color: #F7F3E3;
+  background: white;
+  color: Black;
 }
 
 /* header */
@@ -83,7 +79,7 @@ header {
 }
 
 header h1, header h2 {
-  color: #ECF0F1;
+  color: Black;
   margin: 0;
 }
 
@@ -106,7 +102,7 @@ footer {
   /* background: black; */
   padding: 10px;
   display: inline-block;
-  font-size: 40px;
+  font-size: 40px;/b
 }
 
 /* ------------------------------------------------------------- */
@@ -125,13 +121,13 @@ nav a {
   text-decoration: none;
   text-transform: uppercase;
   font-weight: 700;
-  color: red;
+  color: Black;
 }
 
 /* ------------------------------------------------------------- */
 /* ----- Work Experience ----- */
 .work {
-  background: #F7F3E3;
+  background: white;
 }
 
 h3~p {
