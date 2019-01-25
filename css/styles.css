@@ -91,6 +91,7 @@ header h1, header h2 {
   position: absolute;
   bottom: 0;
   right: 0;
+  background-color: red;
 }
 
 /* footer */
@@ -147,8 +148,9 @@ h3~p {
 /* ----- Education ----- */
 .education {
   /* background: #ECF0F1;*/
-  background: linear-gradient(rgba(70, 62, 144, 0.8),
-    rgba(70, 62, 144, 0.5)),
+  color: white;
+  background: linear-gradient(rgba(70, 62, 144, 0.9),
+    rgba(70, 62, 144, 0.7)),
     url(../images/boulder.jpg) no-repeat fixed;
   background-size: cover;
 }
